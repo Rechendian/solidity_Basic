@@ -23,3 +23,4 @@ Solidity 是一种用于编写智能合约的编程语言，它运行在以太�
 9. 错误处理（Error Handling）：Solidity 提供了多种错误处理机制，用于处理合约中的错误。
 
 10. 代码优化（Code Optimization）：为了提高合约的执行效率，Solidity 提供了一些代码优化技巧，例如循环展开、条件判断等。
+
