@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "foo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/010IfElse.sol": "IfElse1"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/010IfElse.sol": {
+			"keccak256": "0x875afe5c95c3958c0aa3b2c7375ca331eb14598239c7c0726b454d1446898062",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://eb6ecffc47a59f8f1a1e452e4d8a86c2b2e30ea333ab40be856778e7f1d7c481",
+				"dweb:/ipfs/QmZJKaTNQ52vcLjJPScPj7BkdBLvgc4snkbPi5QEX2zC21"
+			]
+		}
+	},
+	"version": 1
+}
