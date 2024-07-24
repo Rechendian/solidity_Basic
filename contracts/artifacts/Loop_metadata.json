@@ -41,11 +41,11 @@
 	},
 	"sources": {
 		"contracts/011ForandWhileLoop.sol": {
-			"keccak256": "0x17a36937177c60c3fdd28f846cc18151b44186d99caece7e0e2c472e9ca3dea0",
+			"keccak256": "0x31cf04585b3e9e2939bc2f7e58b2d742f80fb4533a47f59bf8e6730bf6b29ad1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://63c7859b945d04098c72301836e863b845d0dceab056d279464912e77efea80a",
-				"dweb:/ipfs/QmcyHnuVKWTrJiCZcZyg9zk792TCWVu3WFGrWpAayLfUXZ"
+				"bzz-raw://7b881a71cc6af20699d6d3d311741120d7e4de6919e4526289b28607d006533d",
+				"dweb:/ipfs/QmUm9ccDNuesty1ZqgqAVHYrmZ7jEL8igdTT4weRjecXTb"
 			]
 		}
 	},
