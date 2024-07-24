@@ -1,28 +1,25 @@
-REMIX DEFAULT WORKSPACE
+Solidity 基础
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
+Solidity 是一种用于编写智能合约的编程语言，它运行在以太坊虚拟机（EVM）上。智能合约是存储在区块链上的程序，可以自动执行合同条款。Solidity 的语法类似于 JavaScript，但有一些特定的规则和限制，以确保合约的不可篡改性。
 
-This workspace contains 3 directories:
+以下是一些 Solidity 的基础概念：
 
-1. 'contracts': Holds three contracts with increasing levels of complexity.
-2. 'scripts': Contains four typescript files to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
+1. 合约（Contract）：Solidity 程序的基本单位。一个合约可以包含状态变量、函数、事件和修饰符等。
 
-SCRIPTS
+2. 状态变量（State Variables）：存储在区块链上的变量，用于存储合约的状态。
 
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
+3. 函数（Functions）：合约中的可执行代码块，用于处理合约的逻辑。函数可以接受参数并返回值。
 
-For the deployment of any other contract, just update the contract's name from 'Storage' to the desired contract and provide constructor arguments accordingly 
-in the file `deploy_with_ethers.ts` or  `deploy_with_web3.ts`
+4. 事件（Events）：用于记录合约中的状态变化，以便在链外进行监听和查询。
 
-In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Storage' contract.
+5. 修饰符（Modifiers）：用于定义函数的行为，例如权限控制、重入保护等。
 
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
+6. 交易（Transactions）：以太坊网络上的基本操作，用于调用合约函数或发送以太币。
 
-Please note, require/import is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+7. 消息（Messages）：合约之间的通信方式，用于调用其他合约的函数或发送以太币。
+
+8. 函数修饰符（Function Modifiers）：用于定义函数的行为，例如权限控制、重入保护等。
+
+9. 错误处理（Error Handling）：Solidity 提供了多种错误处理机制，用于处理合约中的错误。
+
+10. 代码优化（Code Optimization）：为了提高合约的执行效率，Solidity 提供了一些代码优化技巧，例如循环展开、条件判断等。
