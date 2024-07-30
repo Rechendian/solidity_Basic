@@ -9,18 +9,57 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_age",
+						"name": "",
 						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
 					}
 				],
-				"name": "addperson",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "arr1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_len",
+						"type": "uint256"
+					}
+				],
+				"name": "arrLen",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -31,56 +70,25 @@
 						"type": "uint256"
 					}
 				],
-				"name": "getPeople",
-				"outputs": [
-					{
-						"components": [
-							{
-								"internalType": "uint256",
-								"name": "age",
-								"type": "uint256"
-							},
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							}
-						],
-						"internalType": "struct SimpleStorage.People",
-						"name": "",
-						"type": "tuple"
-					}
-				],
-				"stateMutability": "view",
+				"name": "arrPush",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "person",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "age",
+						"name": "_arr",
 						"type": "uint256"
 					},
 					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "retrieve",
+				"name": "getArr",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -95,11 +103,29 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_favoriteNumber",
+						"name": "_arr",
 						"type": "uint256"
 					}
 				],
-				"name": "store",
+				"name": "pop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_arr",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "remove",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -118,7 +144,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/021SimpleStorage.sol": "SimpleStorage"
+			"contracts/013Arrray.sol": "Array1"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -132,12 +158,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/021SimpleStorage.sol": {
-			"keccak256": "0x57aacab735a97ff6ed44e5f00980fff9bb4e48ded77dc76c7d087bbd348dad80",
+		"contracts/013Arrray.sol": {
+			"keccak256": "0x8c71bc7b166d8eb37f531096f8eed15c59f3b9afbc8b07b39fe65b1e9f930eed",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ef3ad8fe781d2eda1c9a30777822817da65513e80ece9adf3e2fa800913a2889",
-				"dweb:/ipfs/QmaLJFGLGPw1mZ7jEmdK6f33GuXR5nVJAfc2WSwd9vepDQ"
+				"bzz-raw://d340a8b2170fca630a0bc814451eeab1cfc468b6e545241cde247d85ef679f99",
+				"dweb:/ipfs/Qmf6Q98xykRpNh45nukW1hFS5WvzSRdWe5nHGqTh1GbDQi"
 			]
 		}
 	},

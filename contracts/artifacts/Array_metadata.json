@@ -9,16 +9,62 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_age",
+						"name": "",
 						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
 					}
 				],
-				"name": "addperson",
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "examples",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -27,52 +73,16 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_index",
+						"name": "i",
 						"type": "uint256"
 					}
 				],
-				"name": "getPeople",
+				"name": "get",
 				"outputs": [
-					{
-						"components": [
-							{
-								"internalType": "uint256",
-								"name": "age",
-								"type": "uint256"
-							},
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							}
-						],
-						"internalType": "struct SimpleStorage.People",
-						"name": "",
-						"type": "tuple"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					}
-				],
-				"name": "person",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "age",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -80,7 +90,20 @@
 			},
 			{
 				"inputs": [],
-				"name": "retrieve",
+				"name": "getArr",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getLength",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -92,14 +115,21 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "pop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_favoriteNumber",
+						"name": "index",
 						"type": "uint256"
 					}
 				],
-				"name": "store",
+				"name": "remove",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -118,7 +148,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/021SimpleStorage.sol": "SimpleStorage"
+			"contracts/013Arrray.sol": "Array"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -132,12 +162,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/021SimpleStorage.sol": {
-			"keccak256": "0x57aacab735a97ff6ed44e5f00980fff9bb4e48ded77dc76c7d087bbd348dad80",
+		"contracts/013Arrray.sol": {
+			"keccak256": "0x2b2ac9dc562a59723ecde25ee69ebe820f29d88f9046db15c040b5e707f09ef8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ef3ad8fe781d2eda1c9a30777822817da65513e80ece9adf3e2fa800913a2889",
-				"dweb:/ipfs/QmaLJFGLGPw1mZ7jEmdK6f33GuXR5nVJAfc2WSwd9vepDQ"
+				"bzz-raw://271be181e95b374c783e7c228a5a9d73c1aaf1c0678c430a6e5c96691f7d78ba",
+				"dweb:/ipfs/QmVhGKhs1ut6JPmzSJf3o45EoB47AbN1H6ksDpiecAM89q"
 			]
 		}
 	},

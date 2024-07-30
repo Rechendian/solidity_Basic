@@ -9,11 +9,11 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_i",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "loopFor",
+				"name": "arr",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -21,26 +21,40 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getArr",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_i",
+						"name": "_index",
 						"type": "uint256"
 					}
 				],
-				"name": "loopWhile",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
+				"name": "remove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -57,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/011ForandWhileLoop.sol": "Loop"
+			"contracts/013Arrray.sol": "ArrayRemoveByShifting"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -71,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/011ForandWhileLoop.sol": {
-			"keccak256": "0x7ae3a5984dacf7706e11254e8d2538e67ecc3bbdc3e4abaa9fb1db5989dbe34b",
+		"contracts/013Arrray.sol": {
+			"keccak256": "0x2b2ac9dc562a59723ecde25ee69ebe820f29d88f9046db15c040b5e707f09ef8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://853bf91525d137dcc8936396c76ea84c460dfbe9c6a506420b77e75781ce14f5",
-				"dweb:/ipfs/QmbCMyA14jsi4UAnbxroL91QpetbD9TtC2jRxazRRedQ7p"
+				"bzz-raw://271be181e95b374c783e7c228a5a9d73c1aaf1c0678c430a6e5c96691f7d78ba",
+				"dweb:/ipfs/QmVhGKhs1ut6JPmzSJf3o45EoB47AbN1H6ksDpiecAM89q"
 			]
 		}
 	},

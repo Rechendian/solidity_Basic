@@ -6,24 +6,19 @@ pragma solidity ^0.8.24;
 //For the reason above, while and do while loops are rarely used.   由于上述原因，很少使用 while 和 do while 循环。
 
 contract Loop {
-    function loop() public pure {
-        // for loop
-        for (uint256 i = 0; i < 10; i++) {
-            if (i == 3) {
-                // Skip to next iteration with continue
-                continue;
-            }
-            if (i == 5) {
-                // Exit loop with break
-                break;
-            }
+    function loopFor(uint256 _i) public pure returns (uint256) {
+        uint256 num = 0;
+        for (uint256 i = 0; i < _i; i++) {
+            num += 1;
         }
+        return num;
+    }
 
-        // while loop
-        uint256 j;
-        while (j < 10) {
-            j++;
+    function loopWhile(uint256 _i) public pure returns (uint256) {
+        uint256 num = 0;
+        while (num < _i) {
+            num += 1;
         }
+        return num;
     }
 }
-
