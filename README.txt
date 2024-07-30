@@ -129,5 +129,13 @@ fallback 和 receive
     总结:   receive 必须是 external 和 payable 一起使用 ,   处理接收纯以太币的交易。
             callback 必须是 external , payable 是可选的，  如果有payable决定是否处理以太坊, 没有的话 处理未匹配的函数调用和其他情况
 
+solidity Error 三种错误处理 017 文件
+
 solidity new 关键字是部署一个新的合约。 
-    合约1 new  合约2 :合约2部署
+    合约1 new  合约2 :合约2部署 例子：021 And 022 文件
+
+solidity is 关键字是继承
+    合约1 is 合约2 合约1 可以使用合约2 里面的方法和属性。
+    如果要覆盖的话要用 override 修饰词。 
+    前提是覆盖的方法使用了 virtual 修饰词运行这个方法被覆盖。
+    例子:023 文件。
