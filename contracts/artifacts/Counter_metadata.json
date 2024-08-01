@@ -59,7 +59,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/002FirstApplication.sol": "Counter"
+			"contracts/002_FirstApplication.sol": "Counter"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -73,7 +73,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/002FirstApplication.sol": {
+		"contracts/002_FirstApplication.sol": {
 			"keccak256": "0x9a0429cb6585c2e4a332265cfdd39975209ebb61615238e7ee7b084256a8c551",
 			"license": "MIT",
 			"urls": [

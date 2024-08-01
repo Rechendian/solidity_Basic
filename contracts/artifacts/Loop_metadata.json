@@ -57,7 +57,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/011ForandWhileLoop.sol": "Loop"
+			"contracts/011_ForandWhileLoop.sol": "Loop"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -71,7 +71,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/011ForandWhileLoop.sol": {
+		"contracts/011_ForandWhileLoop.sol": {
 			"keccak256": "0x7ae3a5984dacf7706e11254e8d2538e67ecc3bbdc3e4abaa9fb1db5989dbe34b",
 			"license": "MIT",
 			"urls": [

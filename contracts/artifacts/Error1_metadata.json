@@ -94,7 +94,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/017Error.sol": "Error1"
+			"contracts/017_Error.sol": "Error1"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -108,7 +108,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/017Error.sol": {
+		"contracts/017_Error.sol": {
 			"keccak256": "0xa2896337c981970c3f3a156c04d965a7426196e460a3f38ff3fe1264e21c8c2d",
 			"license": "MIT",
 			"urls": [

@@ -58,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/013Arrray.sol": "ArrayReplaceFromEnd"
+			"contracts/013_Arrray.sol": "ArrayReplaceFromEnd"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -72,7 +72,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/013Arrray.sol": {
+		"contracts/013_Arrray.sol": {
 			"keccak256": "0x2b2ac9dc562a59723ecde25ee69ebe820f29d88f9046db15c040b5e707f09ef8",
 			"license": "MIT",
 			"urls": [

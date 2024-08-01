@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/005Constants..sol": "Constants"
+			"contracts/005_Constants..sol": "Constants"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -59,7 +59,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/005Constants..sol": {
+		"contracts/005_Constants..sol": {
 			"keccak256": "0x37866682eff131fe3b0ece69423bcd9d9503e3f0ba11e2ee3297367824c377fd",
 			"license": "MIT",
 			"urls": [

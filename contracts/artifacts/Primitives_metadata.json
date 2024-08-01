@@ -208,7 +208,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/003PrimitiveDataTypes.sol": "Primitives"
+			"contracts/003_PrimitiveDataTypes.sol": "Primitives"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -222,7 +222,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/003PrimitiveDataTypes.sol": {
+		"contracts/003_PrimitiveDataTypes.sol": {
 			"keccak256": "0x7684a8620381f71ce9c5ef43193e480e64968ce88e5d4e052d8453f3c34c905b",
 			"license": "MIT",
 			"urls": [

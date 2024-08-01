@@ -72,7 +72,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/014Enum.sol": "Enum"
+			"contracts/014_Enum.sol": "Enum"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -86,7 +86,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/014Enum.sol": {
+		"contracts/014_Enum.sol": {
 			"keccak256": "0x118985afc2825b263ee224817e0574fdf579f55213a2913c2b7aeedbae8f0a05",
 			"license": "MIT",
 			"urls": [

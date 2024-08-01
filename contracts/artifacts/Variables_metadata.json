@@ -52,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/004Variables.sol": "Variables"
+			"contracts/004_Variables.sol": "Variables"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -66,7 +66,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/004Variables.sol": {
+		"contracts/004_Variables.sol": {
 			"keccak256": "0xb25b0cf3354851a6244b831a7075fdc86ea27c313b09b4f8754a1f9f39ef3231",
 			"license": "MIT",
 			"urls": [

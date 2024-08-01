@@ -166,7 +166,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/016function.sol": "Function"
+			"contracts/016_function.sol": "Function"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -180,7 +180,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/016function.sol": {
+		"contracts/016_function.sol": {
 			"keccak256": "0xe18cb0bde7cfb45c6a95ffb38dfb1ca217563bc5592f14f5ea646d88c07fd91c",
 			"license": "MIT",
 			"urls": [

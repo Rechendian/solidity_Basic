@@ -65,7 +65,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/020receiveAndfallback.sol": "Example"
+			"contracts/020_receive_fallback.sol": "Example"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -79,7 +79,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/020receiveAndfallback.sol": {
+		"contracts/020_receive_fallback.sol": {
 			"keccak256": "0x0d3745d4e7682dccba0d8b76d5c4124c7889d051a35c43bdcf426a8c0724f7b0",
 			"license": "MIT",
 			"urls": [

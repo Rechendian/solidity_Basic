@@ -97,7 +97,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/008EtherAndWei.sol": "EtherUnits"
+			"contracts/008_EtherAndWei.sol": "EtherUnits"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -111,7 +111,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/008EtherAndWei.sol": {
+		"contracts/008_EtherAndWei.sol": {
 			"keccak256": "0x509d4b51f4ef763f41a68b69d37d2aaab373ebb11e2009cc1d2bf893dc75d01d",
 			"license": "MIT",
 			"urls": [

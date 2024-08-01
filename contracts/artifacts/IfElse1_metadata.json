@@ -38,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/010IfElse.sol": "IfElse1"
+			"contracts/010_If_Else.sol": "IfElse1"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -52,7 +52,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/010IfElse.sol": {
+		"contracts/010_If_Else.sol": {
 			"keccak256": "0x875afe5c95c3958c0aa3b2c7375ca331eb14598239c7c0726b454d1446898062",
 			"license": "MIT",
 			"urls": [

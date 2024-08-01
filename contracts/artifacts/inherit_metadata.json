@@ -4,120 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_age",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					}
-				],
-				"name": "addperson",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "get",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_index",
-						"type": "uint256"
-					}
-				],
-				"name": "getPeople",
-				"outputs": [
-					{
-						"components": [
-							{
-								"internalType": "uint256",
-								"name": "age",
-								"type": "uint256"
-							},
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							}
-						],
-						"internalType": "struct SimpleStorage.People",
-						"name": "",
-						"type": "tuple"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "person",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "age",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "retrieve",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_favoriteNumber",
-						"type": "uint256"
-					}
-				],
-				"name": "store",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -131,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/023inherit.sol": "inherit"
+			"contracts/023_Inheritance_virtual.sol": "inherit"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -145,20 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/021SimpleStorage.sol": {
-			"keccak256": "0x57aacab735a97ff6ed44e5f00980fff9bb4e48ded77dc76c7d087bbd348dad80",
+		"contracts/023_Inheritance_virtual.sol": {
+			"keccak256": "0xfe96837420dec1b8a5a0b17faa49b2aa41acadd9fe2de29aaee1ae06efc5baa3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ef3ad8fe781d2eda1c9a30777822817da65513e80ece9adf3e2fa800913a2889",
-				"dweb:/ipfs/QmaLJFGLGPw1mZ7jEmdK6f33GuXR5nVJAfc2WSwd9vepDQ"
-			]
-		},
-		"contracts/023inherit.sol": {
-			"keccak256": "0xeef5c383f88d14b1cc49309c8d97c3906de1b3f85615370066674059196264e3",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://5aadf657f074fd3f9e7b85524e50ad721e7ed6101a2abe654d85663ee88d6be8",
-				"dweb:/ipfs/QmdY4TUkY9J2h5TLJzGmtKSL8WwUefFzjKfigG814ojFxu"
+				"bzz-raw://57321d093b6af70832feb9c561e28d2ce76e8c644b106964741b3461263f28f1",
+				"dweb:/ipfs/QmSGQXQam5HfYpN6LwSVonLHebdoU6eMe6S2CUNiirkVGu"
 			]
 		}
 	},

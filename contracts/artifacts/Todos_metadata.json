@@ -116,7 +116,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/015Structs.sol": "Todos"
+			"contracts/015_Structs.sol": "Todos"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -130,7 +130,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/015Structs.sol": {
+		"contracts/015_Structs.sol": {
 			"keccak256": "0x8989b649c06709c4ec0cd2437aeeb80e5389810471d1f22878df6bacc51ee5a3",
 			"license": "MIT",
 			"urls": [

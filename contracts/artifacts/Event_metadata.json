@@ -51,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/019Events.sol": "Event"
+			"contracts/019_Events.sol": "Event"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -65,7 +65,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/019Events.sol": {
+		"contracts/019_Events.sol": {
 			"keccak256": "0x4564b22c0294bfbcabfc5ebe19240e41649d22d64d52a758b239f54d84e3e72d",
 			"license": "MIT",
 			"urls": [

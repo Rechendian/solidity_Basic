@@ -39,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/009GasAndGasPrice.sol": "Gas"
+			"contracts/009_GasAndGasPrice.sol": "Gas"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,7 +53,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/009GasAndGasPrice.sol": {
+		"contracts/009_GasAndGasPrice.sol": {
 			"keccak256": "0xf24310276a9fb23ae76456c581070f3a54e5a685ef414ec052eec1a2caa93405",
 			"license": "MIT",
 			"urls": [

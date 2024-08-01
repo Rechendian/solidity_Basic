@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/023_Inheritance_override.sol": "overrideB"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/023_Inheritance_override.sol": {
+			"keccak256": "0xd2ec1b554aecfcbac7ca18142008332e6dcd00354049c96d55aeb8695610f4f1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4ca6718e21a12984ecc847ea6ccb707b18b8d581319b789c25dbd82332274ae0",
+				"dweb:/ipfs/QmZiUzHcVqPmX9z3AAYEJ9hKnXF1anBW846h8PDctRJcfd"
+			]
+		},
+		"contracts/023_Inheritance_virtual.sol": {
+			"keccak256": "0x9e89488b1c02f9654ba4fe89cf2864ac23774de7174bfb81c01219479ad43015",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e60d5b1ad80f46fa18c68ba1933edc1dbbde2ba978b8e5b14e4834a42c0f998a",
+				"dweb:/ipfs/QmTzQWt38FyZcaYvsffBaBbbLZDFnXhVJ9KGLMmB5dNpxi"
+			]
+		}
+	},
+	"version": 1
+}

@@ -88,7 +88,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/012Mapping.sol": "Mapping"
+			"contracts/012_Mapping.sol": "Mapping"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -102,7 +102,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/012Mapping.sol": {
+		"contracts/012_Mapping.sol": {
 			"keccak256": "0x69a9645cda10b39b665920702612d3dbc2fe5764eb6446805955069efd3b6a72",
 			"license": "MIT",
 			"urls": [

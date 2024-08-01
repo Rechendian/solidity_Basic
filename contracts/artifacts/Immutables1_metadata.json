@@ -43,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/006Immutable.sol": "Immutables1"
+			"contracts/006_Immutable.sol": "Immutables1"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -57,7 +57,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/006Immutable.sol": {
+		"contracts/006_Immutable.sol": {
 			"keccak256": "0x4e6743da7c9546611ed71b4c139810998f55a4871b4c2d3d21ea4d965d4b9d0f",
 			"license": "MIT",
 			"urls": [

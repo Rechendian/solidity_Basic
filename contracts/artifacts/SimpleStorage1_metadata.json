@@ -71,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/007ReadingAndWriting .sol": "SimpleStorage1"
+			"contracts/007_ReadingAndWriting .sol": "SimpleStorage1"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -85,7 +85,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/007ReadingAndWriting .sol": {
+		"contracts/007_ReadingAndWriting .sol": {
 			"keccak256": "0xac56c70e1123de4f031373a549ad1a5b4267d8a863c2d2374f801f1eda38811f",
 			"license": "MIT",
 			"urls": [
