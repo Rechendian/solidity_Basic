@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "gweiAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "convertGweiToUSDT",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ethPriceInUSDT",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/028_GweiUsdt.sol": "ConvertGweiToUSDT"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/028_GweiUsdt.sol": {
+			"keccak256": "0x5315e1a91cf6d255dc76e3560fa261cd924fd8b3ffb463c7daa88d277d2d1467",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5921fa5c365cb86595267e405df638e5495e22b80156c74ce7b8492deeb20a19",
+				"dweb:/ipfs/QmYcH2KpkUmKTdMmJDeRS8wzSQoXeMiL6QkGWxZqTPXBqh"
+			]
+		}
+	},
+	"version": 1
+}

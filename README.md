@@ -43,7 +43,13 @@
 ### require、revert 和 assert 是三种 Error
 
 require 和 revert 主要用于处理可预见的错误，回滚状态并退还剩余的 gas，通常用于验证输入和外部调用。
+
+- require 用于检查条件，如果条件不满足，则回滚状态并抛出错误。例如：`require(msg.value >= 1 ether, "Not enough ether");`
+- revert 用于抛出错误并回滚状态，通常用于处理不可预见的错误。例如：`revert("Something went wrong");`
+
 assert 用于检查不变量，确保代码逻辑正确。如果 assert 失败，意味着代码中存在严重的错误，所有剩余的 gas 会被消耗。
+
+- assert 用于检查不变量，确保代码逻辑正确。例如：`assert(block.timestamp == 0);`
 
 ### import 导入本地或者外部合约 new
 
@@ -100,11 +106,23 @@ contract B is A {
 
 ### 构造函数(Constructor)
 
-相当于 js 的 super 调用父类的构造函数
+**构造函数只执行一次 在部署合约的时候执行一次**
+
+继承调用父类的构造函数：父类构造函数的参数有什么 子类都要有，如果父类没有参数子类不需要有
 
 ```solidity
-contract E is X {
-    constructor()  X("X was called") {}
+contract Parent {
+    uint256 public value;
+
+    constructor(uint256 _value) {
+        value = _value;
+    }
+}
+
+contract Child is Parent {
+    constructor(uint256 _parentValue) Parent(_parentValue){
+
+    }
 }
 ```
 
@@ -161,4 +179,28 @@ contract C {
         return bContract.get(); // 调用接口方法
     }
 }
+```
+
+### 合约转账
+
+send,transfer,call
+
+- transfer (2300 gas, throws error)
+
+```solidity
+ payable(msg.sender).transfer(address(this).balance);
+```
+
+- send (2300 gas, returns bool)
+
+```solidity
+ bool sendSuccess =  payable(msg.sender).send(address(this).balance);
+ require(sendSuccess, "Failed to send FEther");
+```
+
+- call (forward all gas or set gas, returns bool)
+
+```solidity
+  (bool sent, bytes memory data) =  payable(msg.sender).call{value: address(this).balance}("");
+  require(sent, "Failed to send FEther");
 ```
